@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#1C2120"
+            android:layout_marginBottom="40dp" />
+
+        <EditText
+            android:id="@+id/txt_name_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            style="@android:style/Widget.Button"
+            android:background="@drawable/background_btn_init"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/txt_username_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            style="@android:style/Widget.Button"
+            android:background="@drawable/background_btn_init"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/txt_email_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            style="@android:style/Widget.Button"
+            android:background="@drawable/background_btn_init"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/txt_password_register"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/background_btn_init"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_register_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            style="@android:style/Widget.Button"
+            android:background="@drawable/background_btn_blue"
+            android:layout_margin="50dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminos y Condiciones" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Iniciar Sesión" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
